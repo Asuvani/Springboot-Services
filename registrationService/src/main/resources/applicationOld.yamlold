@@ -1,0 +1,51 @@
+server:
+  address: localhost
+  port: 8081
+spring:
+  application:
+    name: registration-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/patient_registration_db
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+  mail:
+    host: smtp.gmail.com
+    port: '587'
+    username: your_email@gmail.com
+    password: your_app_password
+    properties:
+      mail:
+        smtp:
+          auth: 'true'
+          starttls:
+            enable: 'true'
+springdoc:
+  swagger-ui:
+    path: /custom-swagger.html
+  api-docs:
+    path: /custom-api-docs
+logging:
+  level:
+    root: INFO
+    com:
+      example:
+        demo: DEBUG
+    org:
+      springframework:
+        web: WARN
+  file:
+    name: logs/application.log
+  structured:
+    format:
+      console: ecs
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    instance:
+      prefer-ip-address: 'true'

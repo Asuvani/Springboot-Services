@@ -1,0 +1,29 @@
+2026-11-13T07:14:17.885+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T07:19:18.030+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T07:24:18.034+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T07:29:18.043+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T07:34:18.058+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T07:39:18.073+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T07:44:18.089+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T15:46:45.782+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T15:51:45.795+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T15:56:45.810+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:01:45.813+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:06:45.828+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:11:45.836+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:16:45.853+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:21:45.866+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:26:45.876+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:31:45.881+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:36:45.883+05:30  INFO 22860 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:39:55.552+05:30  INFO 22860 --- [auth-service] [RMI TCP Connection(200)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-11-13T16:39:55.951+05:30  INFO 22860 --- [auth-service] [RMI TCP Connection(200)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTH-SERVICE with eureka with status DOWN
+2026-11-13T16:39:55.965+05:30  INFO 22860 --- [auth-service] [RMI TCP Connection(200)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1794568195962, current=DOWN, previous=UP]
+2026-11-13T16:39:55.975+05:30  INFO 22860 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Lenovo:auth-service:8085: registering service...
+2026-11-13T16:39:56.285+05:30  INFO 22860 --- [auth-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Lenovo:auth-service:8085 - registration status: 204
+2026-11-13T16:39:56.923+05:30  INFO 22860 --- [auth-service] [RMI TCP Connection(200)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-13T16:39:57.330+05:30  INFO 22860 --- [auth-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-13T16:39:57.603+05:30  INFO 22860 --- [auth-service] [RMI TCP Connection(200)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-11-13T16:40:00.609+05:30  INFO 22860 --- [auth-service] [RMI TCP Connection(200)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-11-13T16:40:00.698+05:30  INFO 22860 --- [auth-service] [RMI TCP Connection(200)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/Lenovo:auth-service:8085 - deregister  status: 200
+2026-11-13T16:40:00.704+05:30  INFO 22860 --- [auth-service] [RMI TCP Connection(200)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

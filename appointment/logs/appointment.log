@@ -1,0 +1,35 @@
+2026-11-13T07:13:18.232+05:30  WARN 21852 --- [appointment-service] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14h3m2s226ms184µs300ns).
+2026-11-13T07:17:28.643+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T07:22:28.661+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T07:27:28.698+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T07:32:28.703+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T07:37:28.707+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T07:42:28.709+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T10:47:17.968+05:30  WARN 21852 --- [appointment-service] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h28s525ms135µs500ns).
+2026-11-13T15:44:56.411+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T15:45:17.152+05:30  WARN 21852 --- [appointment-service] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h58m10s253ms124µs).
+2026-11-13T15:49:56.422+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T15:54:56.441+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T15:59:56.454+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:04:56.462+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:09:56.469+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:14:56.485+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:19:56.541+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:24:56.543+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:29:56.546+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:34:56.553+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:39:53.972+05:30  INFO 21852 --- [appointment-service] [RMI TCP Connection(154)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-11-13T16:39:54.251+05:30  INFO 21852 --- [appointment-service] [RMI TCP Connection(154)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application APPOINTMENT-SERVICE with eureka with status DOWN
+2026-11-13T16:39:54.254+05:30  INFO 21852 --- [appointment-service] [RMI TCP Connection(154)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1794568194254, current=DOWN, previous=UP]
+2026-11-13T16:39:54.258+05:30  INFO 21852 --- [appointment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_APPOINTMENT-SERVICE/Lenovo:appointment-service:8082: registering service...
+2026-11-13T16:39:54.411+05:30  INFO 21852 --- [appointment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_APPOINTMENT-SERVICE/Lenovo:appointment-service:8082 - registration status: 204
+2026-11-13T16:39:55.024+05:30  INFO 21852 --- [appointment-service] [RMI TCP Connection(154)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-13T16:39:55.233+05:30  INFO 21852 --- [appointment-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-13T16:39:55.773+05:30  INFO 21852 --- [appointment-service] [RMI TCP Connection(154)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-13T16:39:56.462+05:30  INFO 21852 --- [appointment-service] [RMI TCP Connection(154)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-13T16:39:56.545+05:30  INFO 21852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-13T16:39:56.595+05:30  INFO 21852 --- [appointment-service] [RMI TCP Connection(154)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-13T16:39:56.619+05:30  INFO 21852 --- [appointment-service] [RMI TCP Connection(154)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-11-13T16:39:59.624+05:30  INFO 21852 --- [appointment-service] [RMI TCP Connection(154)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-11-13T16:39:59.725+05:30  INFO 21852 --- [appointment-service] [RMI TCP Connection(154)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_APPOINTMENT-SERVICE/Lenovo:appointment-service:8082 - deregister  status: 200
+2026-11-13T16:39:59.733+05:30  INFO 21852 --- [appointment-service] [RMI TCP Connection(154)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

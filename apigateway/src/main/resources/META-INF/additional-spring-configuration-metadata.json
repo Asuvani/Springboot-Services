@@ -1,0 +1,47 @@
+{"properties": [
+  {
+    "name": "spring.cloud.gateway.routes",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.gateway.routes'"
+  },
+  {
+    "name": "spring.cloud.gateway.server.webflux.discovery.locator.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.gateway.server.webflux.discovery.locator.enabled'"
+  },
+  {
+    "name": "spring.cloud.gateway.server.webflux.discovery.locator.lower-case-service-id",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.gateway.server.webflux.discovery.locator.lower-case-service-id'"
+  },
+  {
+    "name": "eureka.client.instance.prefer-ip-address",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.instance.prefer-ip-address'"
+  },
+  {
+    "name": "spring.cloud.gateway.server.webflux.routes[0].id",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.gateway.server.webflux.routes[0].id'"
+  },
+  {
+    "name": "spring.cloud.gateway.server.webflux.routes[0].predicates[0]",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.gateway.server.webflux.routes[0].predicates[0]'"
+  },
+  {
+    "name": "spring.cloud.gateway.server.webflux.routes[0].uri",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.gateway.server.webflux.routes[0].uri'"
+  },
+  {
+    "name": "eureka.client.service-url.defaultZone",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.service-url.defaultZone'"
+  },
+  {
+    "name": "eureka.instance.hostname",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.instance.hostname'"
+  }
+]}
