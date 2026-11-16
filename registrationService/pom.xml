@@ -9,7 +9,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.healthcare</groupId>
-	<artifactId>patient</artifactId>
+	<artifactId>registrationService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name />
 	<description />

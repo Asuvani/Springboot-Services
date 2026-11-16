@@ -70,7 +70,7 @@ public class SecurityConfig {
             // Define route permissions
             .authorizeExchange(exchanges -> exchanges
                 // Allow unauthenticated access to auth endpoints
-                .pathMatchers("/auth/**", "/actuator/health").permitAll()
+                .pathMatchers("/auth-service/**","/auth/**", "/actuator/health").permitAll()
                 // Require valid JWT for all other requests
                 .anyExchange().authenticated()
             )
