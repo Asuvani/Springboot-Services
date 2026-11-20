@@ -34,3 +34,14 @@ spring:
           uri: lb://auth-service
           predicates:
             - Path=/auth/**
+
+# Include trace ID and span ID in logs
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level [${spring.application.name}] [traceId=%X{traceId}, spanId=%X{spanId}] %logger - %msg%n"
+
+# Sampling probability
+management:
+  tracing:
+    sampling:
+      probability: 1.0

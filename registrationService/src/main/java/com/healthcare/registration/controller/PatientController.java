@@ -26,19 +26,18 @@ public class PatientController {
     
     private final PatientServiceFacade patientServiceFacade;  
     
-    private final Tracer tracer;
 
-    public PatientController(PatientService patientService,PatientServiceFacade patientServiceFacade,Tracer tracer) {
+    public PatientController(PatientService patientService,PatientServiceFacade patientServiceFacade) {
         this.patientService = patientService;
         this.patientServiceFacade = patientServiceFacade;
-        this.tracer = tracer;
     }
 
     @PostMapping("/registration")
     public ResponseEntity<PatientRegistrationReponse> registerPatient(
             @Valid @RequestBody PatientRegistrationRequest request) {
-
+    	logger.info("Start Register Patient details ");
     	PatientRegistrationReponse response = patientServiceFacade.registerPatient(request);
+    	logger.info("End Register Patient details");
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
 

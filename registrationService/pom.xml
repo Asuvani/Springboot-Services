@@ -60,12 +60,12 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-circuitbreaker-resilience4j</artifactId>
 		</dependency>	
-		<dependency>
+		<!--<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
@@ -87,27 +87,21 @@
 		    <version>1.18.48</version> 
 		    <scope>provided</scope>
 		</dependency>
+		
+		<dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-actuator</artifactId>
+	    </dependency>
     	
     	<dependency>
-		    <groupId>io.micrometer</groupId>
-		    <artifactId>micrometer-tracing</artifactId>
-	    	<version>1.4.4</version>
-		</dependency>
-		<dependency>
-		    <groupId>io.micrometer</groupId>
-		    <artifactId>micrometer-tracing-bridge-otel</artifactId>
-		    <version>1.4.4</version>
-		</dependency>
-		<dependency>
-		    <groupId>io.opentelemetry</groupId>
-		    <artifactId>opentelemetry-exporter-otlp</artifactId>
-		    <version>1.39.0</version>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-opentelemetry</artifactId>
 		</dependency>
 		
 		<dependency>
-	      <groupId>org.springframework.boot</groupId>
-	      <artifactId>spring-boot-starter-actuator</artifactId>
-    	</dependency>
+	    <groupId>io.github.openfeign</groupId>
+	    <artifactId>feign-micrometer</artifactId>
+		</dependency>
     	
 	  <dependency>
     		<groupId>org.springframework.cloud</groupId>
@@ -180,14 +174,14 @@
             <goals>
               <goal>compile</goal>
             </goals>
-            <configuration>
+           <!-- <configuration>
               <annotationProcessorPaths>
                 <path>
                   <groupId>org.projectlombok</groupId>
                   <artifactId>lombok</artifactId>
                 </path>
               </annotationProcessorPaths>
-            </configuration>
+            </configuration>-->
           </execution>
           <execution>
             <id>default-testCompile</id>
@@ -195,14 +189,14 @@
             <goals>
               <goal>testCompile</goal>
             </goals>
-            <configuration>
+           <!-- <configuration>
               <annotationProcessorPaths>
                 <path>
                   <groupId>org.projectlombok</groupId>
                   <artifactId>lombok</artifactId>
                 </path>
               </annotationProcessorPaths>
-            </configuration>
+            </configuration>-->
           </execution>
         </executions>
       </plugin>
